@@ -28,7 +28,21 @@ Captures real-time RF signals using an RTL-SDR dongle and visualizes the power s
 **How to Use:**
 ```bash
 python Frequency_Capture.py
+```
 
+
+### 📘 Overview
+
+The `frequency_simulation.py` script models a hypothetical embedded or IoT device emitting RF signals across a 3D space. It factors in hardware characteristics like processor clock speed, power consumption, and utilization to simulate realistic transmission behavior.
+
+Using NumPy and PyVista, the simulation:
+
+- Builds a volumetric 3D mesh of signal propagation.
+- Calculates signal strength attenuation based on distance from the source.
+- Adjusts signal behavior dynamically based on device-level resource usage.
+- Visualizes the results in both 3D point cloud and 2D depth image formats.
+
+The output helps conceptualize how hardware performance and physical environment affect wireless signal distribution, making it useful for threat modeling, testing, and RF design analysis.
 
 
 # 📡 Frequency Simulation Toolkit

@@ -44,6 +44,7 @@ Using NumPy and PyVista, the simulation:
 
 The output helps conceptualize how hardware performance and physical environment affect wireless signal distribution, making it useful for threat modeling, testing, and RF design analysis.
 
+
 # 📡 Frequency Simulation Toolkit
 
 This toolkit provides a simulation of signal strength propagation in a 3D space and models basic processor characteristics under varying utilization and power load. It is ideal for testing, teaching, or visualizing RF behavior in synthetic environments.
